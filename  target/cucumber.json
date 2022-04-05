@@ -1,0 +1,65 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-02T14:48:39.108Z",
+        "line": 7,
+        "name": "User Is trying to change the backgroung color to blue",
+        "description": "",
+        "id": "the-background-color-changes-to-sky-blue;user-is-trying-to-change-the-backgroung-color-to-blue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "\"Set SkyBlue Backgroungd\" button exists",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User clicks on the \"Set SkyBlue Backgroungd\" button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Background color will change to sky blue",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SkyBlueBackground"
+          }
+        ]
+      }
+    ],
+    "name": "The background color changes to sky blue",
+    "description": "",
+    "id": "the-background-color-changes-to-sky-blue",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/monik/eclipse-workspace/Cucumber_FinalProject/Cucumber_FinalProject/src/test/resources/skyblueBackground.feature",
+    "tags": [
+      {
+        "name": "@SkyBlueBackground",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
